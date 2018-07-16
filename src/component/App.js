@@ -5,7 +5,7 @@ import ContactUs from "./contactus/ContactUs";
 import Services from "./services/Services";
 import AboutUs from "./aboutus/AboutUs";
 import Header from "./shared/Header";
-
+import Footer from "./shared/Footer";
 class App extends Component {
     render(){
         return (
@@ -20,7 +20,10 @@ class App extends Component {
             //         </div>
             //     </Router>
             // </div>
+            <div>
             <Header />
+            <Footer />
+            </div>
         )
     }
 }
